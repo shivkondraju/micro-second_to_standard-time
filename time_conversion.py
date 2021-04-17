@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 #Reading Ticker data CSV file
-data=pd.read_csv(r"tick_20200302.csv")
+data=pd.read_csv(r"tick_data.csv")
 data.shape
 data.head()
 
